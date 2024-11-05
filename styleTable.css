@@ -1,0 +1,73 @@
+
+table, tr{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    background-color: black;
+    color: #fff;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid rgb(31, 22, 22)010;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #e2dada;
+}
+
+
+
+.Circle{
+    display: flex;
+    align-items: center;
+}
+
+
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;   
+}
+
+span{
+    margin-left: 10px;
+}
+
+
+
+
+
+.statusActive{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(90, 214, 28);
+    border-radius: 50%;   
+}
+.statusInactive{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(242, 227, 18);
+    border-radius: 50%;   
+}
+.statusSusp{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(214, 28, 28);
+    border-radius: 50%;   
+}
+
+
+.bleu{
+    color: rgb(11, 76, 228);
+    margin-right: 6px;
+}
+
+.red{
+    color: red;
+}
+
+
